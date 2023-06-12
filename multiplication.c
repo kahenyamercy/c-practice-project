@@ -7,13 +7,13 @@
  */
 void main(void)
 {
-    int input_num, i;
+	int input_num, i;
 
-    printf("Enter a number:");
-    scanf("%d", &input_num);
+	printf("Enter a number:");
+	scanf("%d", &input_num);
 
-    for (i = 0; i <= 10; i++)
-    {
-        printf("\n%dx%d=%d", input_num, i, input_num * i);
-    }
+	for (i = 0; i <= 10; i++)
+	{
+		printf("\n%dx%d=%d", input_num, i, input_num * i);
+	}
 }
